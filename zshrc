@@ -28,6 +28,8 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
 ##################### github proxy ##################### 
 git config --global http.https://github.com.proxy http://127.0.0.1:10080
+#取消代理
+#git config --global --unset http.https://github.com.proxy
 
 
 ##################### brew mirror  ##################### 
